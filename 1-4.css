@@ -1,0 +1,15 @@
+# styleタグを使う
+
+## styleタグ
+headの中に記述
+tyoe="text/css"が必要
+
+<style type="text/css">
+  h1 {
+    color: blue;
+    font-size: 15px;
+  }
+  p {
+    font-size: 9px;
+  }
+</style>
