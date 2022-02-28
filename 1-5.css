@@ -1,0 +1,20 @@
+# 外部ファイルからCSSを読み込む
+
+## linkタグ
+headの中に書く
+rel="stlyesheet"
+type="text/css"
+href="(ファイル名)"
+
+[CSS]
+h1 {
+  color: blue;
+  font-size: 15px;
+}
+
+p {
+  font-size: 9px;
+}
+
+[html]
+<link rel="stylesheet" type="text/css" href="style.css">
