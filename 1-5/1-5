@@ -1,0 +1,7 @@
+# 外部ファイルからCSSを読み込む
+
+## linkタグ
+headの中に書く
+rel="stlyesheet"
+type="text/css"
+href="(ファイル名)"
