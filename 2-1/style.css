@@ -1,0 +1,17 @@
+h1 {
+  color: blue;
+  font-size: 15px;
+}
+
+p {
+  font-size: 9px;
+  background-color: red;
+}
+
+div {
+  font-size: 9px;
+}
+
+span {
+  background-color: yellow;
+}
