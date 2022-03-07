@@ -1,0 +1,35 @@
+body {
+  font: 1.1em/1.5 sans-serif;
+  padding-top: 20p;
+}
+.main {
+  border: 1px solid;
+  margin: auto;
+  padding: 10px 20px 20px;
+  width: 760px;
+}
+
+/* 属性セレクタを使うと */
+[class] {
+  background-color: crimson;
+  color: white;
+  padding: 5px;
+}
+
+[type] {
+  background-color: lightpink;
+  color: brown;
+  padding: 5px;
+}
+
+[href] {
+  background-color: lavender;
+  color: cornflowerblue;
+  padding: 5px;
+}
+
+[href="#"] {
+  background-color: lemonchiffon;
+  color: brown;
+  padding: 5px;
+}
