@@ -1,0 +1,36 @@
+body {
+  padding: 1% 25%;
+  font-family: sans-serif;
+}
+ul {
+  margin: 25px auto 0;
+  padding: 12px;
+  border: 2px dotted grey;
+  list-style-position: inside;
+  font-size: 1.5em;
+}
+li {
+  margin: 0;
+  padding: 15px;
+  border-bottom: 2px solid #224a6b;
+}
+
+/* 擬似要素を使うと */
+li:first-child {
+  background-color: steelblue;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* 動画の通り「:only-child」で書くと
+ページ全体がtomatoで塗られてしまったので
+調べて「ul」を頭に付けると動画と同じ結果になりました */
+ul:only-child {
+  background-color: tomato;
+}
+
+:only-child {
+  background-color: goldenrod;
+}
