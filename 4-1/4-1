@@ -1,0 +1,19 @@
+# フォントの指定
+
+## font-family
+font-family: フォント名;
+- serif
+  日本語でいうところの明朝
+- sans-serif
+  日本語でいうところのゴシック
+- monospace
+  すべての文字が同じ幅に設定されたフォント → プログラミングのコードを表示するときに使われる
+
+※fontファイルが閲覧者のコピュータにインストールされていないと、使用できない
+
+font-family: Courier;
+→ Courierが、閲覧者の手元で存在しないフォントなら、初期値のフォントが指定される。
+
+### 明朝体であることを最終的に固定したい。
+font-family: "Times New Roman", Times, serif;
+→ "Times New Roman"があればそれ。なければ"Times"を使う。それもなければ、明朝系のフォントを選ぶ。

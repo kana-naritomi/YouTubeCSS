@@ -1,0 +1,9 @@
+@charset "ytf-8";
+body {
+  padding: 1em 6em;
+}
+
+/* font-weightの練習 */
+h1 { font-weight: lighter;}
+h1 { font-weight: normal;}
+p { font-weight: bold;}

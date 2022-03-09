@@ -1,0 +1,27 @@
+# 単語による指定方法
+
+## プロパティに対して決まっている物
+- align
+  center / left / right
+- vertical-align
+  middle / top / bottom
+- text-decoration
+  underline / none / ...
+- margin
+  auto  (余白を自動的に調整する→左右に指定すると、ブロック要素が中央寄せされる)
+
+## CSSのルールについてのもの
+- ingerit
+  親要素の設定を継承する
+  → 通常、継承されない設定を強制的に継承させられる
+  <p>
+  <a>ココには親要素であるpタグのcolorの指定は有効ではない</a>
+  </p>
+
+## url
+- url("urlを書く")
+
+## ダブルコーテーションなどを使うときの注意点
+ダブルコーテーションは、文字として扱いたいときには\でエスケープする
+ex) content: "ここに文章を書いています。\"CSS\"の勉強をします。";
+ex) content: "\\3,500-"
