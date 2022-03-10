@@ -1,0 +1,14 @@
+# displayプロパティとvisibilityプロパティ
+
+## display
+そのHTML要素をどのように表示するか
+- block: プロック要素として表示
+- inline: インライン要素として表示
+- inline-block: インラインで扱えるブロック要素として表示
+  →ブロック要素にしか適用できないcssオプションを指定するときに使われる
+- none: 表示しない
+
+## visibility
+そのHTML要素をどのように見せるか
+- visible: そのボックスを表示させる
+- hidden: そのボックスを非表示（見せない）

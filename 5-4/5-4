@@ -1,0 +1,19 @@
+# boxのサイズの考え方
+
+## min-width / max-width
+## min-height / max-height
+- min-*** : 最小でもこのサイズより小さくならない
+- max-*** : 最大でもこのサイズを超えない
+* 高さや幅は、その外側のboxのサイズによって決まる。（特に相対的な単位を利用するとき。）
+
+## box-sizing
+ボックスのサイズの算出方法を決めるオプション
+- content-box : padding/borderを幅や高さに含めない（通常）
+- border-box : padding/borderを幅や高さに含める
+* CSS3なので、ベンダープレックスが必要になる
+
+## overflow
+文字があふれた時の取り扱い
+- visible : はみ出して表示される
+- scroll : スクロールバーがboxに対して表示され、スクロールできる
+- hidden : はみ出た部分が表示させない

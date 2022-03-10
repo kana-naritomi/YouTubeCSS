@@ -1,0 +1,10 @@
+# marginプロパティ
+
+ボックス（ボーダー）の外側の余白
+
+## margin
+  4方向に分けて書くことができる
+  - margin-top
+  - margin-right
+  - margin-bottom
+  - margin-left
