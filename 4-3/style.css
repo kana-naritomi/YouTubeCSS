@@ -1,0 +1,10 @@
+@charset "utf-8";
+body {
+  padding: 1em 6em;
+}
+
+/* fontシリーズの練習 */
+p { font-style: italic; }
+p { font-style: oblique;}
+h1 { font-variant: small-caps; }
+h1 { font: italic small-caps lighter 2.5em/2.7em sams-serif; }

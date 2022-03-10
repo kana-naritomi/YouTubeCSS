@@ -1,0 +1,29 @@
+@charset "utf-8";
+body {
+  padding: 8% 25%;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  background-color: black;
+  color: white;
+  text-align: justify;
+}
+
+div {
+  border: dotted 10px tomato;
+}
+
+/* 装飾の練習 */
+p {
+  padding-top: 10px;
+  padding-right:  20px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+
+p { padding: 10px 20px 5px 30px; }
+p { padding: 10px 20px; }
+p { padding: 10px; }
+p { padding: 10px 0; }

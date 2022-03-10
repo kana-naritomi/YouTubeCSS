@@ -1,0 +1,11 @@
+# paddingプロパティ
+
+- 余白の一種
+  ボックス（ボーダー）の内側に当たる余白
+
+  ## padding
+    4つに分けて書くことができる
+    - padding-top
+    - padding-right
+    - padding-bottom
+    - padding-left

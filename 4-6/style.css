@@ -1,0 +1,17 @@
+@charset "utf-8";
+body {
+  padding: 1em 6em;
+}
+
+/* 装飾の練習 */
+ul {
+  list-style-type: none;
+}
+ol {
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+}
+li {
+  border: solid 1px;
+  margin-bottom: 5px;
+}

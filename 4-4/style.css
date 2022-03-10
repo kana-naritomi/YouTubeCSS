@@ -1,0 +1,7 @@
+@charset "utf-8";
+body {
+  padding: 1em 6em;
+}
+
+/* 行間の指定の練習 */
+p { line-height: 3em; }

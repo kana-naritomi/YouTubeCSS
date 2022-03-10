@@ -1,0 +1,9 @@
+@charset "utf-8";
+body {
+  padding: 1em 6em;
+}
+
+/* text-alignの練習 */
+p {
+  text-align: justify;
+}

@@ -1,0 +1,15 @@
+# 文字のスタイルの指定
+
+## font-style
+  - normal: 通常
+  - italic: 斜体
+  - oblique: 斜体
+  - inherit: 親要素の指定を継承する
+
+## font-variant
+  - normal: 通常
+  - small-caps: すべての文字を大文字書体で表記（文字サイズは小文字と同じように調整される）
+  - inherit: 親要素の指定を継承する
+
+## font
+  font: <font-style> <font-variant> <font-weight> <font-size>/<line-height> <font-family>;

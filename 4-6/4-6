@@ -1,0 +1,18 @@
+# リストの表示方法
+
+## list-style-type
+### ulで指定が可能なもの
+  - disc: 円形（中黒・中点）
+  - circle: 中空円
+  - square: 塗り潰された四角
+### loで指定が可能なもの
+  - decimal: 数値
+  - decimal-leading-zero: 数値（ゼロ埋め）
+  - lower-roman: ローマ数字小文字
+  - lower-alpha: アルファベット小文字
+  - etc...
+
+## list-style-position
+  - inside: ブロックの内側
+  - outside: ブロックの外側
+  - inherit: 親要素の指定を継承する
