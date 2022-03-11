@@ -1,0 +1,13 @@
+# floatプロパティ
+
+## float
+左や右への回り込みを実現する
+- left
+- right
+- none
+
+## clear
+floatを解除する
+- left
+- right
+- both

@@ -1,0 +1,16 @@
+# positionプロパティ
+
+## position
+位置を決める基準の指定
+- static: 配置の方法を決めない（通常）
+- absolute: 絶対位置への配置
+  static以外の指定をされた親（親以上）のボックスの左上を基準とする
+- relative: 相対位置への配置
+  staticで表示される位置を基準とする
+- fixed: 絶対位置への配置・スクロールしても固定される
+
+## 位置を決めるオプション
+- top
+- bottom
+- right
+- left
