@@ -1,0 +1,12 @@
+
+.rounded-box {
+  width: 600px;
+  height: 400px;
+  background-color: #568e9d;
+  margin: auto;
+  /* border-radius: 50px 20px 30px 40px / 100px 10px 60px 15px; */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 15px;
+}

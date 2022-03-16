@@ -1,0 +1,25 @@
+
+div {
+  margin: 50px auto;
+  font: 1.1em/1.5 sans-serif;
+  box-sizing: border-box;
+}
+
+html {  height: 100%; }
+
+/* body {
+  height: 100%;
+  background: url('P1030333.JPG') no-repeat center;
+  background-size: cover;
+  background-size: contain;
+} */
+
+.box {
+  width: 80%;
+  height: 500px;
+  padding: 30px;
+  background: url('P1030333.JPG') no-repeat center;
+  border: 15px solid rgba(35, 66, 97, .6);
+  background-size: cover;
+  background-clip: content-box;
+}

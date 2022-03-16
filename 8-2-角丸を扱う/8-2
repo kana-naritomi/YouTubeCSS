@@ -1,0 +1,14 @@
+# 角丸を扱う
+
+## border-radius
+左上・右上・右下・左下の順番で指定する（左上から時計回り）
+border-radius: 50px 20px 30px 40px;
+省略されたら、点対称の位置と同じ指定になる。
+  - 一つだけの指定: すべて同じ指定
+- border-top-left-radius
+- border-top-right-radius
+- border-bottom-right-radius
+- border-bottom-left-radius
+
+半径を左右方向と上下方向に分けて指定することができる
+左右方向の各方向 / 上下方向の各方向の半径

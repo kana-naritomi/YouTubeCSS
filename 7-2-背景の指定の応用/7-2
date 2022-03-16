@@ -1,0 +1,23 @@
+# 背景の指定の応用
+
+## background-repeat
+どのように繰り返し背景素材を利用するか
+- no-repeat: 繰り返さない
+- repeat: 縦横に繰り返す
+- repeat-x: 横方向にのみ繰り返す
+- repeat-y: 縦方向にのみ繰り返す
+
+## background-position
+背景の表示開始位置を指定する
+- キーワード方式 : center / top / bottom / left / right
+- % : 左上（通常の基準点）を基準として、そのBOXの何%の位置から開始するのか指定する
+- 数値 : 単位を付けて数値で明確に指定する
+
+## background-attachment
+画面をスクロールする際に、背景画像をどのように表示するか
+- fixed: 背景画像の位置が固定されてスクロールしても動かない
+- scroll: スクロールに伴って背景画像も移動する
+- local: そのBOXのスクロール位置に合わせて移動する
+
+
+参考ページ : https://iyashiya.biz/CSS-trouble-solution-1/

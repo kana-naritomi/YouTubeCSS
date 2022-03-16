@@ -1,0 +1,28 @@
+ .box {
+   width: 700px;
+   height: 500px;
+   background-color: #e4e4e4;
+   background-image: url('apple.png');
+   background-repeat: no-repeat;
+   background-position: right top;
+ }
+
+ .scroll {
+   background-attachment: scroll; /* This is the default value */
+ }
+
+ .fixed {
+   background-attachment: fixed;
+ }
+
+ .local {
+   background-attachment: local;
+ }
+
+ div{
+	background-image: url('034.jpg');
+	width: 700px;
+	height: 500px;
+	overflow: scroll;
+  margin: auto;
+}
